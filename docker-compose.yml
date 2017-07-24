@@ -1,0 +1,24 @@
+version: '3.1'
+services:
+    # db:
+    #     build: ../db-model/.
+    #     image: bgea/ti-mysql
+    #     volumes:
+    #         - ../db-model/data:/var/lib/mysql
+    #     ports:
+    #         - 3306:3306
+    #     environment:
+    #         MYSQL_ROOT_PASSWORD: cnyHCt4C9eXu*CU5r@dmx5AWhvx@Xq
+    #         #MYSQL_ROOT_PASSWORD: simplepwd
+    #         MYSQL_USER: ti_collect
+    #         MYSQL_PASSWORD: N8jux7ngH:2zhT)m
+    #         MYSQL_DATABASE: collector
+    api:
+        build: .
+        image: go-api
+        stdin_open: true
+        tty: true
+        # links:
+        #     - db
+        ports:
+            - "8000:8000"

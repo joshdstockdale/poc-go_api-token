@@ -1,0 +1,212 @@
+2017-05-22 14:21:26,617:DEBUG:certbot.main:certbot version: 0.14.1
+2017-05-22 14:21:26,617:DEBUG:certbot.main:Arguments: ['--config-dir', '.caddy/', '--work-dir', '.', '--logs-dir', './logs']
+2017-05-22 14:21:26,617:DEBUG:certbot.main:Discovered plugins: PluginsRegistry(PluginEntryPoint#apache,PluginEntryPoint#manual,PluginEntryPoint#nginx,PluginEntryPoint#null,PluginEntryPoint#standalone,PluginEntryPoint#webroot)
+2017-05-22 14:21:27,103:DEBUG:certbot.plugins.selection:Requested authenticator <certbot.cli._Default object at 0x1062c1690> and installer <certbot.cli._Default object at 0x1062c1690>
+2017-05-22 14:21:27,103:DEBUG:certbot.cli:Default Detector is Namespace(account=<certbot.cli._Default object at 0x105e9e910>, agree_dev_preview=None, allow_subset_of_names=<certbot.cli._Default object at 0x105e9e6d0>, apache=<certbot.cli._Default object at 0x1062c1990>, apache_challenge_location=<certbot.cli._Default object at 0x1062c55d0>, apache_ctl=<certbot.cli._Default object at 0x1062c59d0>, apache_dismod=<certbot.cli._Default object at 0x1062c1fd0>, apache_enmod=<certbot.cli._Default object at 0x1062c1ed0>, apache_handle_modules=<certbot.cli._Default object at 0x1062c5750>, apache_handle_sites=<certbot.cli._Default object at 0x1062c58d0>, apache_init_script=<certbot.cli._Default object at 0x1062c5ad0>, apache_le_vhost_ext=<certbot.cli._Default object at 0x1062c5150>, apache_logs_root=<certbot.cli._Default object at 0x1062c5490>, apache_server_root=<certbot.cli._Default object at 0x1062c5290>, apache_vhost_root=<certbot.cli._Default object at 0x1062c5390>, authenticator=<certbot.cli._Default object at 0x1062c1690>, break_my_certs=<certbot.cli._Default object at 0x1062bc550>, cert_path=<certbot.cli._Default object at 0x1062bce50>, certname=<certbot.cli._Default object at 0x105e93c90>, chain_path=<certbot.cli._Default object at 0x1062c1190>, checkpoints=<certbot.cli._Default object at 0x1062bc0d0>, config_dir='.caddy/', config_file=None, configurator=<certbot.cli._Default object at 0x1062c1690>, csr=<certbot.cli._Default object at 0x1062bc4d0>, debug=<certbot.cli._Default object at 0x1062bc050>, debug_challenges=<certbot.cli._Default object at 0x1062bc150>, dialog=None, domains=<certbot.cli._Default object at 0x105e93a50>, dry_run=<certbot.cli._Default object at 0x105e93ed0>, duplicate=<certbot.cli._Default object at 0x105e9ea10>, eff_email=<certbot.cli._Default object at 0x105e86f90>, email=<certbot.cli._Default object at 0x105e869d0>, expand=<certbot.cli._Default object at 0x105e9e290>, force_interactive=<certbot.cli._Default object at 0x105e93810>, fullchain_path=<certbot.cli._Default object at 0x1062c1090>, func=<function certonly at 0x105da9230>, hsts=<certbot.cli._Default object at 0x105e9ee90>, http01_port=<certbot.cli._Default object at 0x1062bc450>, ifaces=<certbot.cli._Default object at 0x1062bcc50>, init=<certbot.cli._Default object at 0x1062bca50>, installer=<certbot.cli._Default object at 0x1062c1690>, key_path=<certbot.cli._Default object at 0x1062bcf50>, logs_dir='./logs', manual=<certbot.cli._Default object at 0x1062c1c90>, manual_auth_hook=<certbot.cli._Default object at 0x1062c1e90>, manual_cleanup_hook=<certbot.cli._Default object at 0x1062c5d10>, manual_public_ip_logging_ok=<certbot.cli._Default object at 0x1062c5e10>, must_staple=<certbot.cli._Default object at 0x1062bc750>, nginx=<certbot.cli._Default object at 0x1062c1a90>, nginx_ctl=<certbot.cli._Default object at 0x1062c9090>, nginx_server_root=<certbot.cli._Default object at 0x1062c5bd0>, no_bootstrap=<certbot.cli._Default object at 0x105e9ed10>, no_self_upgrade=<certbot.cli._Default object at 0x105e9ec10>, no_verify_ssl=<certbot.cli._Default object at 0x1062bc250>, noninteractive_mode=<certbot.cli._Default object at 0x105e934d0>, num=<certbot.cli._Default object at 0x1062bc8d0>, os_packages_only=<certbot.cli._Default object at 0x105e9eb10>, post_hook=<certbot.cli._Default object at 0x105e867d0>, pre_hook=<certbot.cli._Default object at 0x105e86350>, pref_challs=<certbot.cli._Default object at 0x105e861d0>, prepare=<certbot.cli._Default object at 0x1062bcb50>, quiet=<certbot.cli._Default object at 0x105e9ee10>, reason=<certbot.cli._Default object at 0x1062bc2d0>, redirect=<certbot.cli._Default object at 0x1062bc850>, register_unsafely_without_email=<certbot.cli._Default object at 0x105e866d0>, reinstall=<certbot.cli._Default object at 0x105e9e410>, renew_by_default=<certbot.cli._Default object at 0x105e9e090>, renew_hook=<certbot.cli._Default object at 0x105e93ad0>, renew_with_new_domains=<certbot.cli._Default object at 0x105e9e5d0>, rsa_key_size=<certbot.cli._Default object at 0x1062bc650>, server=<certbot.cli._Default object at 0x1062c1590>, staging=<certbot.cli._Default object at 0x105e9ef10>, standalone=<certbot.cli._Default object at 0x1062c1b90>, standalone_supported_challenges=<certbot.cli._Default object at 0x1062c9190>, staple=<certbot.cli._Default object at 0x105e9e650>, strict_permissions=<certbot.cli._Default object at 0x105e9e350>, text_mode=<certbot.cli._Default object at 0x105e931d0>, tls_sni_01_port=<certbot.cli._Default object at 0x1062bc350>, tos=<certbot.cli._Default object at 0x105e9e810>, uir=<certbot.cli._Default object at 0x105e9ea90>, update_registration=<certbot.cli._Default object at 0x105e86550>, user_agent=<certbot.cli._Default object at 0x1062bc6d0>, validate_hooks=<certbot.cli._Default object at 0x105e93690>, verb='certonly', verbose_count=<certbot.cli._Default object at 0x105e93090>, webroot=<certbot.cli._Default object at 0x1062c1d90>, webroot_map=<certbot.cli._Default object at 0x1062c9390>, webroot_path=<certbot.cli._Default object at 0x1062c5f50>, work_dir='.')
+2017-05-22 14:21:27,121:DEBUG:certbot.log:Root logging level set at 20
+2017-05-22 14:21:27,122:INFO:certbot.log:Saving debug log to /Users/jstockdale/Sites/rock-bottom/src/logs/letsencrypt.log
+2017-05-22 14:21:27,123:DEBUG:certbot.plugins.selection:Requested authenticator None and installer None
+2017-05-22 14:21:27,476:DEBUG:certbot_apache.configurator:Apache version is 2.4.18
+2017-05-22 14:21:27,779:DEBUG:certbot_apache.configurator:Encountered error:
+Traceback (most recent call last):
+  File "/usr/local/Cellar/certbot/0.14.1/libexec/lib/python2.7/site-packages/certbot_apache/configurator.py", line 202, in prepare
+    util.lock_dir_until_exit(self.conf("server-root"))
+  File "/usr/local/Cellar/certbot/0.14.1/libexec/lib/python2.7/site-packages/certbot/util.py", line 130, in lock_dir_until_exit
+    _LOCKS[dir_path] = lock.lock_dir(dir_path)
+  File "/usr/local/Cellar/certbot/0.14.1/libexec/lib/python2.7/site-packages/certbot/lock.py", line 26, in lock_dir
+    return LockFile(os.path.join(dir_path, '.certbot.lock'))
+  File "/usr/local/Cellar/certbot/0.14.1/libexec/lib/python2.7/site-packages/certbot/lock.py", line 49, in __init__
+    self.acquire()
+  File "/usr/local/Cellar/certbot/0.14.1/libexec/lib/python2.7/site-packages/certbot/lock.py", line 60, in acquire
+    fd = os.open(self._path, os.O_CREAT | os.O_WRONLY, 0o600)
+OSError: [Errno 13] Permission denied: '/etc/apache2/.certbot.lock'
+2017-05-22 14:21:27,780:DEBUG:certbot.plugins.disco:Other error:(PluginEntryPoint#apache): ('Unable to lock %s', '/etc/apache2')
+Traceback (most recent call last):
+  File "/usr/local/Cellar/certbot/0.14.1/libexec/lib/python2.7/site-packages/certbot/plugins/disco.py", line 120, in prepare
+    self._initialized.prepare()
+  File "/usr/local/Cellar/certbot/0.14.1/libexec/lib/python2.7/site-packages/certbot_apache/configurator.py", line 206, in prepare
+    "Unable to lock %s", self.conf("server-root"))
+PluginError: ('Unable to lock %s', '/etc/apache2')
+2017-05-22 14:21:27,781:DEBUG:certbot.plugins.selection:Multiple candidate plugins: * standalone
+Description: Spin up a temporary webserver
+Interfaces: IAuthenticator, IPlugin
+Entry point: standalone = certbot.plugins.standalone:Authenticator
+Initialized: <certbot.plugins.standalone.Authenticator object at 0x1062c5b50>
+Prep: True
+
+* webroot
+Description: Place files in webroot directory
+Interfaces: IAuthenticator, IPlugin
+Entry point: webroot = certbot.plugins.webroot:Authenticator
+Initialized: <certbot.plugins.webroot.Authenticator object at 0x1062c5990>
+Prep: True
+2017-05-22 14:21:30,708:DEBUG:certbot.plugins.selection:Selected authenticator <certbot.plugins.standalone.Authenticator object at 0x1062c5b50> and installer None
+2017-05-22 14:21:30,723:DEBUG:certbot.main:Picked account: <Account(RegistrationResource(body=Registration(status=None, contact=(u'mailto:joshdstockdale@gmail.com',), agreement=u'https://letsencrypt.org/documents/LE-SA-v1.1.1-August-1-2016.pdf', key=JWKRSA(key=<ComparableRSAKey(<cryptography.hazmat.backends.openssl.rsa._RSAPublicKey object at 0x10519e0d0>)>)), uri=u'https://acme-v01.api.letsencrypt.org/acme/reg/15312058', new_authzr_uri=u'https://acme-v01.api.letsencrypt.org/acme/new-authz', terms_of_service=u'https://letsencrypt.org/documents/LE-SA-v1.1.1-August-1-2016.pdf'), 63f218f65a3298b00f0aa15643f2bc59, Meta(creation_host=u'bgmaclt98337.bg.org', creation_dt=datetime.datetime(2017, 5, 22, 14, 15, 39, tzinfo=<UTC>)))>
+2017-05-22 14:21:30,748:DEBUG:acme.client:Sending GET request to https://acme-v01.api.letsencrypt.org/directory.
+2017-05-22 14:21:30,816:DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): acme-v01.api.letsencrypt.org
+2017-05-22 14:21:31,355:DEBUG:requests.packages.urllib3.connectionpool:https://acme-v01.api.letsencrypt.org:443 "GET /directory HTTP/1.1" 200 352
+2017-05-22 14:21:31,357:DEBUG:acme.client:Received response:
+HTTP 200
+Server: nginx
+Content-Type: application/json
+Content-Length: 352
+Boulder-Request-Id: NnhpOnm4tnrycnq0SbpDzCrXKhfUxdyKKAY_hdLstps
+Replay-Nonce: NksI92mliPWCv__EWp0J2wprl1ynMt3NJbWDaIA28P0
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=604800
+Expires: Mon, 22 May 2017 14:21:31 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Mon, 22 May 2017 14:21:31 GMT
+Connection: keep-alive
+
+{
+  "key-change": "https://acme-v01.api.letsencrypt.org/acme/key-change",
+  "new-authz": "https://acme-v01.api.letsencrypt.org/acme/new-authz",
+  "new-cert": "https://acme-v01.api.letsencrypt.org/acme/new-cert",
+  "new-reg": "https://acme-v01.api.letsencrypt.org/acme/new-reg",
+  "revoke-cert": "https://acme-v01.api.letsencrypt.org/acme/revoke-cert"
+}
+2017-05-22 14:21:31,358:DEBUG:certbot.display.ops:No installer, picking names manually
+2017-05-22 14:21:38,853:INFO:certbot.main:Obtaining a new certificate
+2017-05-22 14:21:38,855:DEBUG:acme.client:Requesting fresh nonce
+2017-05-22 14:21:38,855:DEBUG:acme.client:Sending HEAD request to https://acme-v01.api.letsencrypt.org/acme/new-authz.
+2017-05-22 14:21:38,984:DEBUG:requests.packages.urllib3.connectionpool:https://acme-v01.api.letsencrypt.org:443 "HEAD /acme/new-authz HTTP/1.1" 405 0
+2017-05-22 14:21:38,985:DEBUG:acme.client:Received response:
+HTTP 405
+Server: nginx
+Content-Type: application/problem+json
+Content-Length: 91
+Allow: POST
+Boulder-Request-Id: A0f2epjScU06jFRxF92buBXIyjoAkgZKNIC3TFdGOHU
+Replay-Nonce: 92XWXLr3Ae9A8QjaC4gFE1qFNu2bByNl-pXtB1CQ3vI
+Expires: Mon, 22 May 2017 14:21:38 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Mon, 22 May 2017 14:21:38 GMT
+Connection: keep-alive
+
+
+2017-05-22 14:21:38,985:DEBUG:acme.client:Storing nonce: 92XWXLr3Ae9A8QjaC4gFE1qFNu2bByNl-pXtB1CQ3vI
+2017-05-22 14:21:38,986:DEBUG:acme.client:JWS payload:
+{
+  "identifier": {
+    "type": "dns", 
+    "value": "pressmywords.co"
+  }, 
+  "resource": "new-authz"
+}
+2017-05-22 14:21:38,990:DEBUG:acme.client:Sending POST request to https://acme-v01.api.letsencrypt.org/acme/new-authz:
+{
+  "header": {
+    "alg": "RS256", 
+    "jwk": {
+      "e": "AQAB", 
+      "kty": "RSA", 
+      "n": "rHL3uIBI8kVrdyj-w0OkGqdtcpzueYaZCKE9260Mn-FaaoBODV_Y8WDa_RuApAAl8thM8LONdVMSHAVQK6EVE5th0xaGWEwdRqcMyk2w-e-QXiCIjx-IRB6vGEWFNXOAqn1f0mHVCviiqTIkdym4Ty_E_V0YOxOFTYSXIzRknv-l6qw_NAB5kwF4afQq3Mu0e4LoEaVX09eVyXfm2_0G8OSgH10w3SdRGdcpEZKcxkB_SwM1lZCgdvoErmovrqKPSqKd5zlRNeiCvyuTAEIPjZPJDJebij6vZGzw5CBeEajviUnky1ejIm3C2tz_hDbv_qyn8_hKa4sgibGBi4t68w"
+    }
+  }, 
+  "protected": "eyJub25jZSI6ICI5MlhXWExyM0FlOUE4UWphQzRnRkUxcUZOdTJiQnlObC1wWHRCMUNRM3ZJIn0", 
+  "payload": "ewogICJpZGVudGlmaWVyIjogewogICAgInR5cGUiOiAiZG5zIiwgCiAgICAidmFsdWUiOiAicHJlc3NteXdvcmRzLmNvIgogIH0sIAogICJyZXNvdXJjZSI6ICJuZXctYXV0aHoiCn0", 
+  "signature": "ieOTl2koK77la0db1g1Xz8DhXGmjkeE8E1wSGYAF5Snm9oG_np1flQdm_TA67HVf_xrxCVnczwgMdauthPLLsFK1_9SohvDH921cz69iD8xVdpuRpP8yXTzb9wtMS5DLwEkCXm1BWh8SWhhlnVshC2V2isfdBYZmlucpC6-K85hOIlXGaDyPN6SpXxTP1X3FYFIwtJgwzhy7TdMazgp6-b94KLKpzmt8979rAqd0p5tObbqOrPcMTlNOZECrzehBO8Peh_oaNMFgOyMi8lnNxoTqgH73t8HBmhXqc64pJX3GxqJh8RpRcSt6dtf61a2vFIilFnSCLZWdjl5LON2fhQ"
+}
+2017-05-22 14:21:39,565:DEBUG:requests.packages.urllib3.connectionpool:https://acme-v01.api.letsencrypt.org:443 "POST /acme/new-authz HTTP/1.1" 201 1003
+2017-05-22 14:21:39,566:DEBUG:acme.client:Received response:
+HTTP 201
+Server: nginx
+Content-Type: application/json
+Content-Length: 1003
+Boulder-Request-Id: piqlWfSOXlbU9ww1vWxj3M7MW9-lPJUSf2H4cBPD9B8
+Boulder-Requester: 15312058
+Link: <https://acme-v01.api.letsencrypt.org/acme/new-cert>;rel="next"
+Location: https://acme-v01.api.letsencrypt.org/acme/authz/d_iVHeKZzrLVqTkUShBQGMMf55U-NO7Tb6kcSfkDSaA
+Replay-Nonce: Wxhg3PlD5G7ZMK9HZPMFY-9pufdeET_p0AuyTbGa3J0
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=604800
+Expires: Mon, 22 May 2017 14:21:39 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Mon, 22 May 2017 14:21:39 GMT
+Connection: keep-alive
+
+{
+  "identifier": {
+    "type": "dns",
+    "value": "pressmywords.co"
+  },
+  "status": "pending",
+  "expires": "2017-05-29T14:21:39.269331116Z",
+  "challenges": [
+    {
+      "type": "http-01",
+      "status": "pending",
+      "uri": "https://acme-v01.api.letsencrypt.org/acme/challenge/d_iVHeKZzrLVqTkUShBQGMMf55U-NO7Tb6kcSfkDSaA/1211153013",
+      "token": "pDLKJw-_9JjvJAaI8zgdNWHZltaPsp4VDCRRGUT3l1U"
+    },
+    {
+      "type": "dns-01",
+      "status": "pending",
+      "uri": "https://acme-v01.api.letsencrypt.org/acme/challenge/d_iVHeKZzrLVqTkUShBQGMMf55U-NO7Tb6kcSfkDSaA/1211153014",
+      "token": "M8c-RIgxxAC3RE2fbEu_d5zlX3BGdsMina4LpPK-R3Q"
+    },
+    {
+      "type": "tls-sni-01",
+      "status": "pending",
+      "uri": "https://acme-v01.api.letsencrypt.org/acme/challenge/d_iVHeKZzrLVqTkUShBQGMMf55U-NO7Tb6kcSfkDSaA/1211153015",
+      "token": "y4p9-KolHzHnfohq_nuhryShSpVaToxIbeodkK-mPpU"
+    }
+  ],
+  "combinations": [
+    [
+      2
+    ],
+    [
+      0
+    ],
+    [
+      1
+    ]
+  ]
+}
+2017-05-22 14:21:39,566:DEBUG:acme.client:Storing nonce: Wxhg3PlD5G7ZMK9HZPMFY-9pufdeET_p0AuyTbGa3J0
+2017-05-22 14:21:39,567:INFO:certbot.auth_handler:Performing the following challenges:
+2017-05-22 14:21:39,568:INFO:certbot.auth_handler:tls-sni-01 challenge for pressmywords.co
+2017-05-22 14:21:39,570:DEBUG:certbot.error_handler:Encountered exception:
+Traceback (most recent call last):
+  File "/usr/local/Cellar/certbot/0.14.1/libexec/lib/python2.7/site-packages/certbot/auth_handler.py", line 115, in _solve_challenges
+    resp = self.auth.perform(self.achalls)
+  File "/usr/local/Cellar/certbot/0.14.1/libexec/lib/python2.7/site-packages/certbot/plugins/standalone.py", line 211, in perform
+    return [self._try_perform_single(achall) for achall in achalls]
+  File "/usr/local/Cellar/certbot/0.14.1/libexec/lib/python2.7/site-packages/certbot/plugins/standalone.py", line 218, in _try_perform_single
+    _handle_perform_error(error)
+  File "/usr/local/Cellar/certbot/0.14.1/libexec/lib/python2.7/site-packages/certbot/plugins/standalone.py", line 260, in _handle_perform_error
+    "root).".format(error.port))
+PluginError: Could not bind TCP port 443 because you don't have the appropriate permissions (for example, you aren't running this program as root).
+
+2017-05-22 14:21:39,570:DEBUG:certbot.error_handler:Calling registered functions
+2017-05-22 14:21:39,570:INFO:certbot.auth_handler:Cleaning up challenges
+2017-05-22 14:21:39,570:DEBUG:certbot.log:Exiting abnormally:
+Traceback (most recent call last):
+  File "/usr/local/bin/certbot", line 11, in <module>
+    load_entry_point('certbot==0.14.1', 'console_scripts', 'certbot')()
+  File "/usr/local/Cellar/certbot/0.14.1/libexec/lib/python2.7/site-packages/certbot/main.py", line 742, in main
+    return config.func(config, plugins)
+  File "/usr/local/Cellar/certbot/0.14.1/libexec/lib/python2.7/site-packages/certbot/main.py", line 682, in certonly
+    lineage = _get_and_save_cert(le_client, config, domains, certname, lineage)
+  File "/usr/local/Cellar/certbot/0.14.1/libexec/lib/python2.7/site-packages/certbot/main.py", line 82, in _get_and_save_cert
+    lineage = le_client.obtain_and_enroll_certificate(domains, certname)
+  File "/usr/local/Cellar/certbot/0.14.1/libexec/lib/python2.7/site-packages/certbot/client.py", line 344, in obtain_and_enroll_certificate
+    certr, chain, key, _ = self.obtain_certificate(domains)
+  File "/usr/local/Cellar/certbot/0.14.1/libexec/lib/python2.7/site-packages/certbot/client.py", line 313, in obtain_certificate
+    self.config.allow_subset_of_names)
+  File "/usr/local/Cellar/certbot/0.14.1/libexec/lib/python2.7/site-packages/certbot/auth_handler.py", line 74, in get_authorizations
+    resp = self._solve_challenges()
+  File "/usr/local/Cellar/certbot/0.14.1/libexec/lib/python2.7/site-packages/certbot/auth_handler.py", line 115, in _solve_challenges
+    resp = self.auth.perform(self.achalls)
+  File "/usr/local/Cellar/certbot/0.14.1/libexec/lib/python2.7/site-packages/certbot/plugins/standalone.py", line 211, in perform
+    return [self._try_perform_single(achall) for achall in achalls]
+  File "/usr/local/Cellar/certbot/0.14.1/libexec/lib/python2.7/site-packages/certbot/plugins/standalone.py", line 218, in _try_perform_single
+    _handle_perform_error(error)
+  File "/usr/local/Cellar/certbot/0.14.1/libexec/lib/python2.7/site-packages/certbot/plugins/standalone.py", line 260, in _handle_perform_error
+    "root).".format(error.port))
+PluginError: Could not bind TCP port 443 because you don't have the appropriate permissions (for example, you aren't running this program as root).
