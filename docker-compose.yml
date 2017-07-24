@@ -15,7 +15,7 @@ services:
     #         MYSQL_DATABASE: collector
     api:
         build: .
-        image: go-api
+        image: joshdstockdale/go-api
         stdin_open: true
         tty: true
         # links:
